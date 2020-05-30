@@ -1,0 +1,28 @@
+<! lang="en"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="author" content="Zhaoyuan Ma"><meta name="description" content="&lt;img align=&quot;left&quot; style=&quot;padding-right:1em&quot; src=&quot;/img/px250/earphone.jpg&quot;&gt;Turn an AAAx2 powered noise canceling headphone into a rechargeable lithium-powered version.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;"><meta name="keywords" content="Hack,Circuit"><title>PX250 battery modify · Zhaoyuan Ma</title><!--link(rel="icon", href=url_for(theme.favicon))--><link rel="canonical" href="http://www.zhaoyuanma.me/PX250-battery-modify/"><link rel="alternate" href="/atom.xml" title="Zhaoyuan Ma"><link rel="stylesheet" href="/fonts/iconfont/iconfont.css"><link rel="stylesheet" href="/css/style.css"><script type="text/javascript">var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?Your baidu Analytics ID";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script type="text/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'Your Google Analytics ID', 'auto');
+ga('send', 'pageview');</script></head><body><div id="main"><header><a href="/." class="logo">Zhaoyuan Ma</a><ul class="nav"><li class="nav-link"><a href="/" target="_self">Home</a></li><li class="nav-link"><a href="/categories/" target="_self">Categories</a></li><li class="nav-link"><a href="/tags/" target="_self">Tags</a></li><li class="nav-link"><a href="/about/" target="_self">About</a></li></ul></header><section id="container"><article class="post"><h1 class="post-title">PX250 battery modify</h1><span class="post-time">Jun 6, 2015</span><div class="post-content"><p>Sennheiser PX250 is a noise canceling headphone which shares the similar appearance as PX200. I got it from a friend. He was just about to get a new one since he lost the button of it. I designed and printed the switch to repair it. Later on, I found it was annoying to get AAA x 2 for it all the time. So I decided to modify it a little bit, to replace the battery compartment with a lithium battery and a circuit with the capability of charging, voltage measurement, and regulator.<br>Basically it suppose to be something like this:<br><img src="/img/px250/earphone_diagram.png" alt=""></p>
+<p>So here was the list of things need to be done:</p>
+<ol>
+<li>Print a new cover to replace the old one (with extra holes for LEDs, the button, and the MicroUSB port).</li>
+<li>Electrodes need to be removed to get more space for circuit and battery.</li>
+<li>The On&amp;Off switch which PX250 uses is EG6201 (made by E switch), which contains 6 switches, one is used for power. You can cut the trace off and place your LDO in between topologically.</li>
+<li>There are two screw holes, which will help to determine the size of the circuit board and the battery.</li>
+<li>Of course, get a battery that just fits in. Design a circuit as well.</li>
+</ol>
+<p><strong>Break down:</strong><br><img src="/img/px250/earphone_raw1.jpg" alt=""></p>
+<p><strong>Circuit design:</strong><br><img src="/img/px250/projSlience.png" alt=""></p>
+<p><strong>Assemble mockup:</strong><br><img src="/img/px250/IMG_20150514_145026.jpg" alt=""></p>
+<p><strong>New cover 3D modeling</strong><br><img src="/img/px250/cover_model.jpg" alt=""></p>
+<p><strong>Final assemble.</strong> (printed by Makerbot Replicator 2, with helpdisk).<br><img src="/img/px250/IMG_20150601_184502.jpg" alt=""></p>
+</div></article><div class="tags"><a href="/tags/Hack/">Hack</a><a href="/tags/Circuit/">Circuit</a></div><div class="paginator"><a href="/eClover/" class="prev"><i class="iconfont icon-left"></i><span> Prev</span></a><a href="/Haptics-feedback-on-a-touch-screen/" class="next"><span>Next</span><i class="iconfont icon-right"></i></a></div></section><footer><div class="copyright"><p class="power">Powered by <a href="https://hexo.io/">Hexo</a> and Theme by <a href="https://github.com/ahonn/hexo-theme-even"> Even</a></p><p class="since">&copy;2012-2020<span class="at"> @ </span><span class="author">Zhaoyuan Ma</span></p></div><label id="back2top"><i class="iconfont icon-up"></i></label></footer></div><script src="/js/zepto.min.js"></script><script src="/js/theme.js"></script></body></html>

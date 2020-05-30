@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Zhaoyuan Ma</title>
+  <icon>https://www.gravatar.com/avatar/46a3cc1a027d9c8b6495d3c63f0a302c</icon>
+  <subtitle>A portfolio of mine</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://www.zhaoyuanma.me/"/>
+  <updated>2018-10-14T13:04:08.071Z</updated>
+  <id>http://www.zhaoyuanma.me/</id>
+  
+  <author>
+    <name>Zhaoyuan Ma</name>
+    <email>zhaoyuanma23@gmail.com</email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>&lt;b&gt;[Project]&lt;/b&gt; Chatting robot with behavior learning</title>
+    <link href="http://www.zhaoyuanma.me/Chatting-robot-with-behavior-learning/"/>
+    <id>http://www.zhaoyuanma.me/Chatting-robot-with-behavior-learning/</id>
+    <published>2017-07-21T03:42:07.000Z</published>
+    <updated>2018-10-14T13:04:08.071Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>Co-author:</strong> Katsushi Ikeuchi, David Baumert, Yutaka Suzue, Masaru Takizawa, Kazuhiro Sasabuchi, et al. </p><p><strong>My contribution:</strong></p><ul><li>Software design on top of ROS.</li></ul><p><strong>Related work was demoed at “Microsoft Research Faculty Summit 2017: The Edge of AI” (<a href="https://www.microsoft.com/en-us/research/event/microsoft-research-asia-academic-day-2017/" target="_blank" rel="noopener">Automatic Description of Human Motion and Its Reproduction by Robot Based on Labanotation</a>) and “2017 MSRA academic day”(<a href="https://www.microsoft.com/en-us/research/video/video-abstract-human-robot-collaboration/" target="_blank" rel="noopener">Human-Robot Collaboration</a>).</strong></p><p>We propose a cloud-based system to empower service robots to generate human-like motions corresponding to the on-going conversation while chatting with people. In conversation, a gesture along with spoken sentence is an important factor as it is referred to as body language. This is particularly true for humanoid service robots because the key merit of such a humanoid robot is its resemblance to human shape as well as human behavior. Currently, robots with physical forms are not expected to reply with gestures when encountering contents outside their fixed knowledge. To fill this gap, we design a working prototype by employing a SoftBank Pepper robot and Microsoft Cognitive Services, shown in the diagram below.</p><p><img src="/img/msrabot/diag1.png" alt=""></p><p>To enable the gesture synthesis function, we build a “gesture library”. First, it contains common gestures. Second, it can analyze a sentence to map it a concept within the library. Third, it searches in the library for the concept, select a suitable gesture, which is written in Labanotation, to drive robots. The system diagram is shown below.</p><p><img src="/img/msrabot/diag2.png" alt=""></p><p>To prepare the library, we collected common gestures of daily conversations by using our Learning-from-Observation system (you can find more details <a href="/Robot-learning-from-observation/" title="here">here</a>), clustered them into about 40 concepts and designed a mapping mechanism to pair given sentences to concepts. To implement a complete system, we also employed Microsoft face tracking, speech recognition, chatting engine and text to speech services. Thus, our robots are able to process conversations with humans and automatically generate meaningful physical behaviors to accompany its spoken words.</p><p>You can find more details about this project from <a href="https://www.microsoft.com/en-us/research/video/visual-sensing-visual-intelligence/" target="_blank" rel="noopener">Katsu’s talk</a> at Microsoft Research Faculty Summit 2017 (starts at 48:26). Related slides can be found <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2017/07/From_Visual_Sensing_to_Visual_Intelligence_Katsu_Ikeuchi.pdf" target="_blank" rel="noopener">here</a>.</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;img align=&quot;left&quot; style=&quot;padding-right:1em&quot; src=&quot;/img/msrabot/pepper.jpg&quot;&gt; A robot system that is able to automatically generate life-like and meaningful physical behaviors to accompany its spoken words when process conversations with humans.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+    
+    </summary>
+    
+      <category term="Project" scheme="http://www.zhaoyuanma.me/categories/Project/"/>
+    
+    
+      <category term="Robotics" scheme="http://www.zhaoyuanma.me/tags/Robotics/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>G27 Steering Wheel Quick Release Mod</title>
+    <link href="http://www.zhaoyuanma.me/Steering-wheel/"/>
+    <id>http://www.zhaoyuanma.me/Steering-wheel/</id>
+    <published>2017-02-11T14:37:51.000Z</published>
+    <updated>2018-10-14T13:04:08.074Z</updated>
+    
+    <content type="html"><![CDATA[<p>You can download my model from <a href="http://www.thingiverse.com/thing:2091543" target="_blank" rel="noopener">Thingiverse</a>.<br>The final result:</p><iframe width="560" height="315" src="https://www.youtube.com/embed/0c4S-7T3qgs?ecver=1" frameborder="0" allowfullscreen></iframe><p>I got a Logitech G27 and set it up on my desktop. There was a problem with it: the steering wheel was too close to my keyboard, which made it really hard to type on the keyboard. So I decided to mod my steering wheel into a detachable version.<br>I bought a *cheap* universal quick release module from Taobao, as well as a common flange for G27. I cut it in half and fount out it couldn’t fit my module. So I designed two flanges for it, cut from ABS chunks by using a Roland MDX-40A.</p><p><strong>A universal flange from Taobao and cut in half:</strong><br><img src="/img/g27/1.jpg" alt=""></p><p><strong>Cut the base flange:</strong><br><img src="/img/g27/2.jpg" alt=""></p><p><strong>Install the base flange. And try to put the other part on:</strong><br><img src="/img/g27/3.gif" alt=""></p><p><strong>Cut the second flange connected to the wheel (from both side):</strong><br><img src="/img/g27/4.jpg" alt=""></p><p><strong>Install the second flange:</strong><br><img src="/img/g27/5.gif" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;img align=&quot;left&quot; style=&quot;padding-right:1em&quot; src=&quot;/img/g27/g27.gif&quot;&gt;Designed two flanges to convert the Logitech G27 into one with the ability of quick release.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+    
+    </summary>
+    
+      <category term="Hobby" scheme="http://www.zhaoyuanma.me/categories/Hobby/"/>
+    
+    
+      <category term="Hack" scheme="http://www.zhaoyuanma.me/tags/Hack/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>&lt;b&gt;[Project]&lt;/b&gt; Robot learning from observation</title>
+    <link href="http://www.zhaoyuanma.me/Robot-learning-from-observation/"/>
+    <id>http://www.zhaoyuanma.me/Robot-learning-from-observation/</id>
+    <published>2016-05-26T14:25:52.000Z</published>
+    <updated>2018-10-14T13:25:55.524Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>Teamwork with</strong> Katsushi Ikeuchi, Zengquang Yan, Yoshihiro Sato, Minako Nakamura, Shunsuke Kudho, et al.</p><p><strong>My contribution:</strong></p><ul><li>Mechanical design and prototyping</li><li>Robot control circuit design and prototyping</li><li>Robot control programming under ROS</li><li>improving algorithm which generates Labanotation from Kinect’s skeleton information</li></ul><p><strong>Related work is published in International Journal of Computer Vision, 2018. You can find out more information <a href="http://link.springer.com/article/10.1007/s11263-018-1123-1" target="_blank" rel="noopener">here</a>.</strong><br><strong>Related work was demoed to Bill Gates, Paul Allen and Satya Nadella at TechFest 2016 of Microsoft.</strong></p><div style="display:inline-block;text-align:center"><img src="/img/msrabot/robot@facebook2.png" alt=""><br><em>Related post on Harry Shum’s facebook</em><br></div><div style="display:inline-block;text-align:center;"><br><img src="/img/msrabot/robot3.jpg" alt=""><br><em>Hand-made robot prototype</em><br></div><p>We present a robot interaction system by introducing <a href="https://en.wikipedia.org/wiki/Labanotation" target="_blank" rel="noopener">Labanotation</a> into the working process. In real world scenario, there are several ways of programming a robot. But due to the kinematic and dynamic difference between human and robots, or even different robots themselves, simple mimicking method to repeat exactly the same joint angles will not work. So we bring Labanotation, a notation being used to record dance, as an intermediate symbolic representation for imitation of human’s upper body motion. In our system, a person performs series of actions in front of a Kinect first. Human skeleton information is captured and processed into so-called “energy function”. Peaks in the energy function are detected and treated as time point of key poses. A sequence of Labanotation is generated from the skeleton information (a.k.a. key pose) of the corresponding time points. After that, the Labanotation is sent to different robots. Robots receive the message then interpret Labanotation according to its’ own kinematics structure to mimic human action.</p><div style="display:inline-block;text-align:center;"><br><img src="/img/msrabot/flowchart.png" alt=""><br><em>Procedures for using Labanotation as intermediate language of robot control.</em><br></div><p>For tasks that do not request precise manipulation, the biggest benefits of doing this is time-saving for motion editing to different robots. Engineers only need to program the robot once to set up rules of mapping Labanotation symbols. Then robots are able to interpret any Labanotation sequences.</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;img align=&quot;left&quot; style=&quot;padding-right:1em&quot; src=&quot;/img/msrabot/robot.jpg&quot;&gt;Robots learn human motion by observing human behavior.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+    
+    </summary>
+    
+      <category term="Project" scheme="http://www.zhaoyuanma.me/categories/Project/"/>
+    
+    
+      <category term="Robotics" scheme="http://www.zhaoyuanma.me/tags/Robotics/"/>
+    
+      <category term="Embedded system" scheme="http://www.zhaoyuanma.me/tags/Embedded-system/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Neko Atsume daily password hack</title>
+    <link href="http://www.zhaoyuanma.me/Neko-Atsume-daily-password-hack/"/>
+    <id>http://www.zhaoyuanma.me/Neko-Atsume-daily-password-hack/</id>
+    <published>2016-04-22T02:30:24.000Z</published>
+    <updated>2018-10-14T13:04:08.072Z</updated>
+    
+    <content type="html"><![CDATA[<p>For people who play Neko Atsume (a Tamagochi game), saving fish (the currency in that game) can a real pain. But I’m not going to install a cracked version from unknown source for unlimited fish, nor spend money on In-App purchasing. I need to find another way.</p><p>This game provides a daily password system, which may have some hidden flaw. You get into the menu, find the daily password, input it, and then receive some fish. Just like this.</p><p><img src="/img/neko/secretary.jpg" alt=""></p><p>If you have multiple devices, you will find the password is the same on different devices. And you will obtain the same amount of fish as well. That means devices get the password from the same approach, send the input to the server to get verified, received the same response (if you input correct password).</p><p>First thing first, setup an AP (Access Point) to intercept data flow between the game and the server. This was done by using a Raspberry Pi. Remembered to turn off data access on your phone to ensure that all data went through Wi-Fi. Here shows how the topology of the network changes. </p><div style="display:inline-block;text-align:center;"><br><img src="/img/neko/net1.jpg" alt=""><br><em>Up: Original network topology<br>Down: Insert a interceptor into the network</em><br></div><p>Then turned on Wireshark to capture data flow. I set the Wi-Fi hotspot of Pi as 192.168.2.1. The phone was allocated as 192.168.2.92. Opened the app, clicked “info”, input password, and received fish.<br>Here came some interesting data with the keyword “neko”.</p><p><img src="/img/neko/daily.jpg" alt=""></p><p>Data was sent to 49.212.146.33, which is equal to <a href="http://hpmobile.jp/" target="_blank" rel="noopener">http://hpmobile.jp/</a>. The full URL was <a href="http://hpmobile.jp/app/nekoatsume/neko_daily_en.php" target="_blank" rel="noopener">http://hpmobile.jp/app/nekoatsume/neko_daily_en.php</a>. Data obtained from the web page was “1,Insect,19,0,2016-04-19,”. “Insect” was the password of date “2016 April, 19th”. If you input that password, you would be rewarded with 19 silver fish and 0 golden fish.</p><p>Then moved along the timeline. Here was another URL: <a href="http://hpmobile.jp/app/nekoatsume/neko_aikotoba_en.php?aiko=insect&amp;sn=300&amp;gn=10" target="_blank" rel="noopener">http://hpmobile.jp/app/nekoatsume/neko_aikotoba_en.php?aiko=insect&amp;sn=300&amp;gn=10</a>.</p><p><img src="/img/neko/input.jpg" alt=""></p><p>Our submission used the password you input as the parameter for “aiko” to fulfill the post method.<br>Then the respond here was:</p><p><img src="/img/neko/output.jpg" alt=""></p><p>This web page returned “2,2016-04-19,19,0,”. If you tried to input a wrong password, it would be sent to the same PHP page. And “0” would be the respond. There wouldn’t be any effect if you changed “sn=” or “gn=”.</p><p>What we discovered was pretty promising. Next step was to <a href="http://andrewmichaelsmith.com/2013/08/raspberry-pi-wi-fi-honeypot/" target="_blank" rel="noopener">modify the Pi into a honeypot</a> to redirect the process locally and feed the app with fake web pages.</p><div style="display:inline-block;text-align:center;"><br><img src="/img/neko/net2.jpg" alt=""><br><em>Redirect data flow to a fake server</em><br></div><p>I installed Nginx and PHP, created two pages called “neko_daily_en.php” and “neko_aikotoba_en.php” under “/var/www<strong>/app/nekoatsume/</strong>”. The content of “neko_daily_en.php” was “1,test,65535,65535,2016-04-21,”, while the content of “neko_aikotoba_en.php” was “2,2016-04-21,65535,65535,”.<br>If you saw this, cats are fooled!</p><p><img src="/img/neko/test.jpg" alt=""></p><p>Since our PHP page didn’t check the input, just typed whatever you want.</p><p><img src="/img/neko/65535.jpg" alt=""></p><p>Is that what you are looking for?</p><p>Other findings:</p><ol><li>The number of fish in “neko_daily_en.php” is not used in the whole process. Only data in “neko_aikotoba_en.php” matters.</li><li>The app will restore the date of the last check-in, and compare with the server to see whether you have already checked in that day. So just changing date information inside “neko_aikotoba_en.php” will be fine to avoid this check.</li><li>The content of PHP page should end with “,”. Otherwise, the app cannot recognize the number of golden fish.</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      &lt;img align=&quot;left&quot; style=&quot;padding-right:1em&quot; src=&quot;/img/neko/65535.jpg&quot;&gt;Fool some cats to earn &quot;a little bit&quot; more daily reward.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+    
+    </summary>
+    
+      <category term="Hobby" scheme="http://www.zhaoyuanma.me/categories/Hobby/"/>
+    
+    
+      <category term="Web develop" scheme="http://www.zhaoyuanma.me/tags/Web-develop/"/>
+    
+      <category term="Hack" scheme="http://www.zhaoyuanma.me/tags/Hack/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>&lt;b&gt;[Project]&lt;/b&gt; Touch typing on touch cover</title>
+    <link href="http://www.zhaoyuanma.me/Touch-typing-on-touch-cover/"/>
+    <id>http://www.zhaoyuanma.me/Touch-typing-on-touch-cover/</id>
+    <published>2015-07-07T15:03:41.000Z</published>
+    <updated>2018-10-14T13:04:08.074Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>Co-author:</strong> Darren Edge, Leah Findlater, Hong Z. Tan</p><p><strong>My contribution:</strong></p><ul><li>Mechanical structure design and processing.</li><li>Circuit design, assembling and debugging.</li><li>Firmware and software programming and tuning.</li><li>Design and conducting a user study based on the keyboard.</li></ul><p><strong>Related work on this keyboard is published in Proceedings of IEEE World Haptics Conference (WHC 2015), you can find out more information <a href="https://www.microsoft.com/en-us/research/publication/haptic-keyclick-feedback-improves-typing-speed-and-reduces-typing-errors-on-a-flat-keyboard/" target="_blank" rel="noopener">here</a></strong></p><div style="display:inline-block;text-align:center;"><br><object width="560" height="315" align="aligncenter" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always"><param name="src" value="//www.youtube.com/v/ee1wuZxiLsc?version=3&amp;hl=en_US&amp;start=100"><param name="allowfullscreen" value="true"><embed width="560" height="315" type="application/x-shockwave-flash" src="//www.youtube.com/v/ee1wuZxiLsc?version=3&amp;hl=en_US&amp;start=100" allowfullscreen="true" allowscriptaccess="always"></object><br><em>Demostrated on Microsoft TechFest 2014 (Youtube video)</em><br></div><p>People prefer Microsoft Type Cover rather than Touch Cover regardless of the thickness difference, due to Type Cover provide a better feeling of haptic feedback. Although this Cover shares the exact same appearance and dimension with other Touch Covers, everything inside has been pulled out and replaced by a totally different structure. Piezoelectric actuators are used to simulate physical keyboards, which means to create a sense of click under the certain finger that is pressing down. The study shows that people type faster and make fewer errors when they type on this kind of key-click as compared to just sound feedback.</p><div style="display:inline-block;text-align:center;"><br><img src="/img/keyboard/keyboard1.jpg" alt="System block diagram"><br><em>System block diagram</em><br></div><div style="display:inline-block;text-align:center;"><br><img src="/img/keyboard/IMG_4783.jpg" alt=""><br><em>Our implementation: black. Original Touch Cover: blue</em><br></div><div style="display:inline-block;text-align:center;"><br><img src="/img/keyboard/IMG_4794.jpg" alt=""><br><em>Sideview</em><br></div><div style="display:inline-block;text-align:center;"><br><img src="/img/keyboard/insight.jpg" alt=""><br><em>The inside view of the keyboard structure (modified version for user study)</em><br></div><p><strong>Keyboard Feature:</strong></p><ul><li>Same form factor as Microsoft Touch Cover.</li><li>Isolated haptic feedback under each key.</li><li>Using piezo ceramic for both sensing and actuating.</li><li>Haptic feedback delay: 40.2ms.</li><li>Standard USB keyboard interface (through MicroUSB connection).</li><li>With configuration tool to turn on/off haptic feedback or change the feedback waveform.</li></ul><p><strong>User Study Take Away:</strong></p><ul><li>Haptic feedback improves typing speed and reduces errors</li><li>Audio feedback helps, but only if there is no haptics</li><li>Haptic feedback alone is superior to audio feedback alone</li><li>Users prefer localized haptics, but global helps home positioning</li></ul><p>Special thanks to Magnetro Chen for his help!</p><p>I proceeded a user study with 24 participants, more than 60 hours in total.<br><img src="/img/keyboard/27A3152-1.jpg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;img align=&quot;left&quot; style=&quot;padding-right:1em&quot; src=&quot;/img/keyboard/keyboard.jpg&quot;&gt;This is the world first flat keyboard (without moving keys) that can deliver haptic keyclick feedback felt locally on each key. This keyboard has the same form factor of a Microsoft Touch Cover. We conducted a study to evaluate how haptic keyclick feedback might improve  typing  performance. &lt;a href=&quot;https://www.microsoft.com/en-us/research/publication/haptic-keyclick-feedback-improves-typing-speed-and-reduces-typing-errors-on-a-flat-keyboard/&quot;&gt;Related work&lt;/a&gt; on this keyboard is published on Proceedings of IEEE World Haptics Conference (WHC 2015).
+    
+    </summary>
+    
+      <category term="Project" scheme="http://www.zhaoyuanma.me/categories/Project/"/>
+    
+    
+      <category term="Haptics" scheme="http://www.zhaoyuanma.me/tags/Haptics/"/>
+    
+      <category term="Embedded system" scheme="http://www.zhaoyuanma.me/tags/Embedded-system/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>&lt;b&gt;[Project]&lt;/b&gt; eClover</title>
+    <link href="http://www.zhaoyuanma.me/eClover/"/>
+    <id>http://www.zhaoyuanma.me/eClover/</id>
+    <published>2015-07-07T14:37:45.000Z</published>
+    <updated>2018-10-14T13:04:08.074Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>Co-author:</strong> Yukang Yan, Darren Edge, Hong Z. Tan, Yuanchun Shi and Ed Colgate</p><p><strong>My contribution:</strong></p><ul><li>Circuit (tactors controlling) design, assembling and debugging.</li><li>Software modification.</li></ul><p><img src="/img/eclover/eclover-sys1.jpg" alt=""></p><p>We present a wearable prototype combining an electrostatic interface with four tactors worn around the wrist. This combination allows users to feel the approximate time in situations where glancing might not be appropriate, such as when in a meeting or giving a presentation. Users can also elect to receive notifications for scheduled events or at regular time intervals throughout the day.</p><p><strong>Driving circuit</strong><br>The driver for the electrostatic display and tactors.</p><p><strong>Electrostatic display</strong><br>The electrostatic display on the upper surface allows users to “pull” information at any time. The system provides relative information such as time elapsed by adjusting the extent of high and low friction areas along the length of the display.</p><p><strong>Tactors around the wrist</strong><br>Four tactors are arranged around the wrist, each controlled individually. We use the relative position of the signal generated by the tactors and electrostatic display to notify the user of certain timing milestones. We also use the cutaneous saltatory effect to generate vibration patterns that could be used to announce the time, e.g., every half hour.</p><p>This project is presented as a Demo in the <a href="http://haptics2015.org/program/index.html#Demonstrations" target="_blank" rel="noopener">IEEE World Haptics Conference 2015</a>.</p><div style="display:inline-block;text-align:center;"><br><img src="/img/eclover/eclover-sys2.jpg" alt="System block diagram"><br><em>System block diagram</em><br></div><p><strong>Early prototypes:</strong></p><div style="display:inline-block;text-align:center;"><br><img src="/img/eclover/827A1663.jpg" alt=""><br><em>Up: tactors and their control unit.<br>Down: enclosed with leather (hand made)</em><br></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;img align=&quot;left&quot; style=&quot;padding-right:1em&quot; src=&quot;/img/eclover/eclover.jpg&quot;&gt;A wearable prototype combining an electrostatic interface with four tactors worn around the wrist. This combination allows users to feel the approximate time in situations where glancing might not be appropriate, such as when in a meeting or giving a presentation. Users can also elect to receive notifications for scheduled events or at regular time intervals throughout the day.
+    
+    </summary>
+    
+      <category term="Project" scheme="http://www.zhaoyuanma.me/categories/Project/"/>
+    
+    
+      <category term="Haptics" scheme="http://www.zhaoyuanma.me/tags/Haptics/"/>
+    
+      <category term="Embedded system" scheme="http://www.zhaoyuanma.me/tags/Embedded-system/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PX250 battery modify</title>
+    <link href="http://www.zhaoyuanma.me/PX250-battery-modify/"/>
+    <id>http://www.zhaoyuanma.me/PX250-battery-modify/</id>
+    <published>2015-06-06T14:51:07.000Z</published>
+    <updated>2018-10-14T13:04:08.072Z</updated>
+    
+    <content type="html"><![CDATA[<p>Sennheiser PX250 is a noise canceling headphone which shares the similar appearance as PX200. I got it from a friend. He was just about to get a new one since he lost the button of it. I designed and printed the switch to repair it. Later on, I found it was annoying to get AAA x 2 for it all the time. So I decided to modify it a little bit, to replace the battery compartment with a lithium battery and a circuit with the capability of charging, voltage measurement, and regulator.<br>Basically it suppose to be something like this:<br><img src="/img/px250/earphone_diagram.png" alt=""></p><p>So here was the list of things need to be done:</p><ol><li>Print a new cover to replace the old one (with extra holes for LEDs, the button, and the MicroUSB port).</li><li>Electrodes need to be removed to get more space for circuit and battery.</li><li>The On&amp;Off switch which PX250 uses is EG6201 (made by E switch), which contains 6 switches, one is used for power. You can cut the trace off and place your LDO in between topologically.</li><li>There are two screw holes, which will help to determine the size of the circuit board and the battery.</li><li>Of course, get a battery that just fits in. Design a circuit as well.</li></ol><p><strong>Break down:</strong><br><img src="/img/px250/earphone_raw1.jpg" alt=""></p><p><strong>Circuit design:</strong><br><img src="/img/px250/projSlience.png" alt=""></p><p><strong>Assemble mockup:</strong><br><img src="/img/px250/IMG_20150514_145026.jpg" alt=""></p><p><strong>New cover 3D modeling</strong><br><img src="/img/px250/cover_model.jpg" alt=""></p><p><strong>Final assemble.</strong> (printed by Makerbot Replicator 2, with helpdisk).<br><img src="/img/px250/IMG_20150601_184502.jpg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;img align=&quot;left&quot; style=&quot;padding-right:1em&quot; src=&quot;/img/px250/earphone.jpg&quot;&gt;Turn an AAAx2 powered noise canceling headphone into a rechargeable lithium-powered version.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+    
+    </summary>
+    
+      <category term="Hobby" scheme="http://www.zhaoyuanma.me/categories/Hobby/"/>
+    
+    
+      <category term="Hack" scheme="http://www.zhaoyuanma.me/tags/Hack/"/>
+    
+      <category term="Circuit" scheme="http://www.zhaoyuanma.me/tags/Circuit/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>&lt;b&gt;[Project]&lt;/b&gt; Haptics feedback on a touch screen</title>
+    <link href="http://www.zhaoyuanma.me/Haptics-feedback-on-a-touch-screen/"/>
+    <id>http://www.zhaoyuanma.me/Haptics-feedback-on-a-touch-screen/</id>
+    <published>2014-05-04T03:33:47.000Z</published>
+    <updated>2018-10-14T13:04:08.071Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>Co-author:</strong> Chen Zhao, Xiaowei Dai, Kwangtaek Kim, Jiawei Gu, Peter Choi, Hong Z. Tan, Ed Colgate</p><p><strong>My contribution:</strong></p><ul><li>Physical simulation</li><li>Circuit debugging</li><li>Piezoelectric actuators impedance matching</li><li>Firmware/APP programming</li></ul><div style="display:inline-block;text-align:center;"><br><object width="560" height="315" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always"><param name="src" value="//www.youtube.com/v/ee1wuZxiLsc?version=3&amp;hl=en_US&amp;start=137"><param name="allowfullscreen" value="true"><embed width="560" height="315" type="application/x-shockwave-flash" src="//www.youtube.com/v/ee1wuZxiLsc?version=3&amp;hl=en_US&amp;start=137" allowfullscreen="true" allowscriptaccess="always"></object><br><em>Demostrated on Microsoft TechFest 2014 (Youtube video)</em><br></div><p>SlickFeel-Lumia is an advanced version of SlickFeel. A Lumia 920, a piece of glass with piezo actuators, circuit boards and a battery are boxed together to implement a handheld haptic feedback device. This device could generate different friction based on TPaD (tactile pattern display) technic, which allows users to create a different feeling on bare fingers for scenarios. For examples, switching between selections, scrolling on bars, moving out of range. The localized feeling it provides distinguished this device from phones using vibrators as haptic feedback.</p><div style="display:inline-block;text-align:center;"><br><img src="/img/lumia/projLumia.jpg" alt="System block diagram"><br><em>System block diagram</em><br></div><p><img src="/img/lumia/DSC07467.jpg" alt=""></p><p><img src="/img/lumia/DSC07552.jpg" alt=""></p><p>Special thanks to Prof. Ed Colgate and the <a href="http://tpadtablet.org/" target="_blank" rel="noopener">TPaD</a> Tablet team for sharing their knowledge on TPaD with us!<br>This project is accepted as a Demo in the <a href="http://www.haptics2013.org/sub03_07.php" target="_blank" rel="noopener">IEEE World Haptics Conference 2013</a>.</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;img align=&quot;left&quot; style=&quot;padding-right:1em&quot; src=&quot;/img/lumia/lumia.jpg&quot;&gt;A handheld haptic feedback device which could generate different friction based on TPaD (tactile pattern display) technic, allow users to create a different feeling on bare fingers for scenarios. For examples, switching between selections, scrolling on bars, moving out of range. The localized feeling it provides distinguished this device from phones using vibrators as haptic feedback.
+    
+    </summary>
+    
+      <category term="Project" scheme="http://www.zhaoyuanma.me/categories/Project/"/>
+    
+    
+      <category term="Haptics" scheme="http://www.zhaoyuanma.me/tags/Haptics/"/>
+    
+      <category term="Embedded system" scheme="http://www.zhaoyuanma.me/tags/Embedded-system/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>WRT54GL RAM replacement</title>
+    <link href="http://www.zhaoyuanma.me/WRT54GL/"/>
+    <id>http://www.zhaoyuanma.me/WRT54GL/</id>
+    <published>2012-10-10T15:15:46.000Z</published>
+    <updated>2018-10-14T13:04:08.074Z</updated>
+    
+    <content type="html"><![CDATA[<p>I found a WRT54GL when I was doing housework. At that time I was using a WHR54G, which is a cut-down version of WRT54 and is not a good platform for playing with OpenWRT. So I took a discarded FPGA board, desolder a chip of RAM from it. But it turns out that the pin layout of that chip is totally different from original one (TSOP48-&gt;TSOP56). So I took the whole afternoon checking datasheets from different RAM manufactory, tracing down the wire on PCB by microscope and multimeter. And finally came out with a chart showing the relationship between all 4 packaging that are designed on the PCB for mounting different RAM chips.<br><img src="/img/wrt54gl/wrt54gl_ram.png" alt=""></p><p>By using the chart I found that the “new” chip could be mount on one of the packaging with three pins wired out.<br><img src="/img/wrt54gl/wireout.jpg" alt=""></p><p>After that, the router was upgraded from 8M RAM to 64M.</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;img align=&quot;left&quot; style=&quot;padding-right:1em&quot; src=&quot;/img/wrt54gl/wrt54gl.jpg&quot;&gt;Saved a WRT54GL from trash can, upgraded it with chips from my &lt;strike&gt;treasure&lt;/strike&gt; recycle box for playing around with OpenWRT. The incompatible pin layout between RAM chips that I desoldered from an old FPGA board and this router took me hours to figure out how to wire them up.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+    
+    </summary>
+    
+      <category term="Hobby" scheme="http://www.zhaoyuanma.me/categories/Hobby/"/>
+    
+    
+      <category term="Hack" scheme="http://www.zhaoyuanma.me/tags/Hack/"/>
+    
+      <category term="Circuit" scheme="http://www.zhaoyuanma.me/tags/Circuit/"/>
+    
+  </entry>
+  
+</feed>

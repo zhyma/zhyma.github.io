@@ -1,0 +1,31 @@
+<! lang="en"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="author" content="Zhaoyuan Ma"><meta name="description" content="&lt;img align=&quot;left&quot; style=&quot;padding-right:1em&quot; src=&quot;/img/msrabot/robot.jpg&quot;&gt;Robots learn human motion by observing human behavior.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;"><meta name="keywords" content="Robotics,Embedded system"><title>&lt;b&gt;[Project]&lt;/b&gt; Robot learning from observation · Zhaoyuan Ma</title><!--link(rel="icon", href=url_for(theme.favicon))--><link rel="canonical" href="http://www.zhaoyuanma.me/Robot-learning-from-observation/"><link rel="alternate" href="/atom.xml" title="Zhaoyuan Ma"><link rel="stylesheet" href="/fonts/iconfont/iconfont.css"><link rel="stylesheet" href="/css/style.css"><script type="text/javascript">var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?Your baidu Analytics ID";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script type="text/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'Your Google Analytics ID', 'auto');
+ga('send', 'pageview');</script></head><body><div id="main"><header><a href="/." class="logo">Zhaoyuan Ma</a><ul class="nav"><li class="nav-link"><a href="/" target="_self">Home</a></li><li class="nav-link"><a href="/categories/" target="_self">Categories</a></li><li class="nav-link"><a href="/tags/" target="_self">Tags</a></li><li class="nav-link"><a href="/about/" target="_self">About</a></li></ul></header><section id="container"><article class="post"><h1 class="post-title"><b>[Project]</b> Robot learning from observation</h1><span class="post-time">May 26, 2016</span><div class="post-content"><p><strong>Teamwork with</strong> Katsushi Ikeuchi, Zengquang Yan, Yoshihiro Sato, Minako Nakamura, Shunsuke Kudho, et al.</p>
+<p><strong>My contribution:</strong></p>
+<ul>
+<li>Mechanical design and prototyping</li>
+<li>Robot control circuit design and prototyping</li>
+<li>Robot control programming under ROS</li>
+<li>improving algorithm which generates Labanotation from Kinect’s skeleton information</li>
+</ul>
+<p><strong>Related work is published in International Journal of Computer Vision, 2018. You can find out more information <a href="http://link.springer.com/article/10.1007/s11263-018-1123-1" target="_blank" rel="noopener">here</a>.</strong><br><strong>Related work was demoed to Bill Gates, Paul Allen and Satya Nadella at TechFest 2016 of Microsoft.</strong></p>
+<div style="display:inline-block;text-align:center"><img src="/img/msrabot/robot@facebook2.png" alt=""><br><em>Related post on Harry Shum’s facebook</em><br></div>
+
+<div style="display:inline-block;text-align:center;"><br><img src="/img/msrabot/robot3.jpg" alt=""><br><em>Hand-made robot prototype</em><br></div>
+
+<p>We present a robot interaction system by introducing <a href="https://en.wikipedia.org/wiki/Labanotation" target="_blank" rel="noopener">Labanotation</a> into the working process. In real world scenario, there are several ways of programming a robot. But due to the kinematic and dynamic difference between human and robots, or even different robots themselves, simple mimicking method to repeat exactly the same joint angles will not work. So we bring Labanotation, a notation being used to record dance, as an intermediate symbolic representation for imitation of human’s upper body motion. In our system, a person performs series of actions in front of a Kinect first. Human skeleton information is captured and processed into so-called “energy function”. Peaks in the energy function are detected and treated as time point of key poses. A sequence of Labanotation is generated from the skeleton information (a.k.a. key pose) of the corresponding time points. After that, the Labanotation is sent to different robots. Robots receive the message then interpret Labanotation according to its’ own kinematics structure to mimic human action.</p>
+<div style="display:inline-block;text-align:center;"><br><img src="/img/msrabot/flowchart.png" alt=""><br><em>Procedures for using Labanotation as intermediate language of robot control.</em><br></div>
+
+<p>For tasks that do not request precise manipulation, the biggest benefits of doing this is time-saving for motion editing to different robots. Engineers only need to program the robot once to set up rules of mapping Labanotation symbols. Then robots are able to interpret any Labanotation sequences.</p>
+</div></article><div class="tags"><a href="/tags/Robotics/">Robotics</a><a href="/tags/Embedded-system/">Embedded system</a></div><div class="paginator"><a href="/Steering-wheel/" class="prev"><i class="iconfont icon-left"></i><span> Prev</span></a><a href="/Neko-Atsume-daily-password-hack/" class="next"><span>Next</span><i class="iconfont icon-right"></i></a></div></section><footer><div class="copyright"><p class="power">Powered by <a href="https://hexo.io/">Hexo</a> and Theme by <a href="https://github.com/ahonn/hexo-theme-even"> Even</a></p><p class="since">&copy;2012-2020<span class="at"> @ </span><span class="author">Zhaoyuan Ma</span></p></div><label id="back2top"><i class="iconfont icon-up"></i></label></footer></div><script src="/js/zepto.min.js"></script><script src="/js/theme.js"></script></body></html>
