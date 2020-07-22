@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://zhyma.github.io/about/index.html</loc>
+    
+    <lastmod>2020-07-22T18:47:27.335Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://zhyma.github.io/Touch-typing-on-touch-cover/</loc>
     
     <lastmod>2020-07-22T18:41:37.173Z</lastmod>
@@ -33,13 +40,6 @@
     <loc>http://zhyma.github.io/Chatting-robot-with-behavior-learning/</loc>
     
     <lastmod>2020-07-22T18:41:12.228Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhyma.github.io/about/index.html</loc>
-    
-    <lastmod>2020-05-30T01:23:40.489Z</lastmod>
     
   </url>
   
