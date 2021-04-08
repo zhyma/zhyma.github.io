@@ -2,23 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://zhyma.github.io/about/index.html</loc>
+    <loc>http://zhyma.github.io/A%20linear%20force-sensing%20handbrake%20for%20sim-racing/</loc>
     
-    <lastmod>2020-07-22T18:47:27.335Z</lastmod>
+    <lastmod>2021-04-08T03:35:01.881Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://zhyma.github.io/Touch-typing-on-touch-cover/</loc>
+    <loc>http://zhyma.github.io/Enhanced%20tele-operation%20camera%20control%20by%20head%20motions/</loc>
     
-    <lastmod>2020-07-22T18:41:37.173Z</lastmod>
+    <lastmod>2021-04-08T03:32:09.384Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhyma.github.io/about/index.html</loc>
+    
+    <lastmod>2021-04-08T02:20:51.046Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://zhyma.github.io/Robot-learning-from-observation/</loc>
     
-    <lastmod>2020-07-22T18:41:31.160Z</lastmod>
+    <lastmod>2021-04-08T02:04:57.907Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhyma.github.io/Touch-typing-on-touch-cover/</loc>
+    
+    <lastmod>2021-04-08T01:54:47.160Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhyma.github.io/Chatting-robot-with-behavior-learning/</loc>
+    
+    <lastmod>2021-04-08T01:44:48.184Z</lastmod>
     
   </url>
   
@@ -33,13 +54,6 @@
     <loc>http://zhyma.github.io/eClover/</loc>
     
     <lastmod>2020-07-22T18:41:19.733Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhyma.github.io/Chatting-robot-with-behavior-learning/</loc>
-    
-    <lastmod>2020-07-22T18:41:12.228Z</lastmod>
     
   </url>
   
